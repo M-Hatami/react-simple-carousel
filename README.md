@@ -1,3 +1,16 @@
+<html lang="fa" dir="rtl">
+<body>
+<h1>معرفی
+</h1>
+<p>نمونه برنامه ری‌اکت جاوا اسکریپت برای ساخت تصاویر و پیامهای چرخ فلکی صفحات تارنما و سامانه‌های برخط:</p>
+<div>
+<img src="https://github.com/M-Hatami/react-simple-carousel/blob/master/public/react-javascript-carousel.png?raw=true" alt="نمونه رابط کاربری"/>
+</div>
+<br/>
+<p>برای ملاحظه ارائه زنده به <a href="https://react-simple-carousel1.netlify.app/">نمونه برخط</a> این طرح مراجعه فرمایید.
+</p>
+</body>
+</html>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
