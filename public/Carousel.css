@@ -1,0 +1,157 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./fnt/Yekan.woff2) format("woff2"),
+    url(./fnt/Yekan.woff) format("woff"),
+    url(./fnt/Yekan.ttf) format("truetype"),
+    url(./fnt/Yekan.eot?#iefix) format("embedded-opentype"),
+    url(./fnt/Yekan.svg#WeblogmaYekan) format("svg");
+  font-weight: normal;
+  unicode-range: U+0600 –06FF;
+}
+
+@font-face {
+  font-family: "Vazir Code Hack";
+  src: url("./fnt/monospaced/Vazir-Code-Hack.woff2") format("woff2"),
+    url("./fnt/monospaced/Vazir-Code-Hack.woff") format("woff"),
+    url("./fnt/monospaced/Vazir-Code-Hack.ttf") format("truetype"),
+    url("./fnt/monospaced/Vazir-Code-Hack.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  unicode-range: U+0600 –06FF;
+}
+
+/** Style variables **/
+:root {
+  --green: #007d1b;
+  --black-head: #111;
+  --black-txt: #202124;
+  --grey-detail: #888;
+  --grey-head-border: #888;
+  --grey-border: #d6d6d6;
+  --blue-link: #06c;
+}
+
+/** Default styles that will carry to the child style sheet **/
+* {
+  font-family: Yekan, Tahoma, "Segoe UI", sans-serif, "Noto Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji";
+  color: var(--black-txt);
+  letter-spacing: -0.02em;
+}
+
+body {
+  margin: 0;
+  font-size: 16pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.02em;
+  overflow: visible;
+  color: var(--black-head);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#app div {
+  width: 100%;
+}
+
+#app div div {
+  position: absolute;
+  height: 100%;
+}
+
+#app div div div {
+  position: relative;
+  height: auto;
+}
+
+h1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 300px;
+}
+
+nav a {
+  margin: 12px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+button {
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
+  background-color: #f4595b;
+  border-radius: 8px;
+  border-bottom: 4px solid #c24648;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #ff7375;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #c24648;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
+
+button:active {
+  background-color: #c24648;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #c24648;
+  color: #ccc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 2px;
+}
